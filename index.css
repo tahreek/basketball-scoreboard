@@ -1,0 +1,51 @@
+@font-face {
+    src: url("scoreboard.ttf");
+    font-family: scoreboard;
+}
+
+body {
+    margin: 0;
+    font-family: scoreboard;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: navy;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+#increment1-btn {
+    background: darkblue;
+    color: white;
+    font-family: scoreboard;
+}
+
+#increment2-btn {
+    background: darkblue;
+    color: white;
+    font-family: scoreboard;
+}
+
+#increment3-btn {
+    background: darkblue;
+    color: white;
+    font-family: scoreboard;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    background: black;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
