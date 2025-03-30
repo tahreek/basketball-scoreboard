@@ -36,6 +36,13 @@ body {
     font-family: scoreboard;
 }
 
+#new-btn {
+    border: none;
+    color: white;
+    background: green;
+    padding: 5px 10px 5px 10px;
+}
+
 h3 {
     color: white;
     text-align: center;

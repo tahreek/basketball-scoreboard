@@ -3,6 +3,11 @@ let awayEl = document.getElementById("away-el")
 let countHome = 0
 let countAway = 0
 
+function newGame() {
+    homeEl.textContent = 0
+    awayEl.textContent = 0
+}
+
 function increment1home() {
     countHome += 1
     homeEl.textContent = countHome
@@ -21,10 +26,6 @@ function increment3home() {
 function increment1away() {
     countAway += 1
     awayEl.textContent = countAway
-}
-
-function newGame() {
-    
 }
 
 function increment2away() {
