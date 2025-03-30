@@ -4,8 +4,10 @@ let countHome = 0
 let countAway = 0
 
 function newGame() {
-    homeEl.textContent = 0
-    awayEl.textContent = 0
+    countHome = 0
+    homeEl.textContent = countHome
+    countAway = 0
+    awayEl.textContent = countAway
 }
 
 function increment1home() {
